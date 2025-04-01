@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../assets/food-logo.png";
 import { FaCartShopping } from "react-icons/fa6";
+import DarkMode from "./DarkMode";
 const Navbar = () => {
   return (
     <>
@@ -20,6 +21,9 @@ const Navbar = () => {
               </a>
             </div>
             <div className="flex items-center gap-4">
+              <div>
+                <DarkMode/>
+              </div>
               <ul className="gap-4 hidden sm:flex ">
                 <li>
                   <a
