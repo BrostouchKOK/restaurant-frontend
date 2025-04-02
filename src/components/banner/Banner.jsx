@@ -39,7 +39,7 @@ const Banner = () => {
                   <GrSecure
                     className="rounded-full w-20 h-20 text-4xl bg-violet-300
                         dark:bg-violet-500 p-5 shadow-sm"
-                  /> 
+                  />
                 </div>
                 <div>
                   <IoFastFood
@@ -56,9 +56,11 @@ const Banner = () => {
               </div>
               <div>
                 <button
-                    className="bg-gradient-to-r from-primary to-secondary rounded-full
+                  className="bg-gradient-to-r from-primary to-secondary rounded-full
                     px-4 py-3 text-white hover:scale-105 duration-300"
-                >Order Now</button>
+                >
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
