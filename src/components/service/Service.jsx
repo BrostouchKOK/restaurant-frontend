@@ -7,7 +7,7 @@ const Service = () => {
       <div className="py-10">
         <div className="container">
           {/* header section */}
-          <div className="text-center mb-20 max-w-[400px] mx-auto">
+          <div data-aos="fade-up" className="text-center mb-20 max-w-[400px] mx-auto">
             <p
               className="text-sm bg-clip-text text-transparent
               bg-gradient-to-r from-primary to-secondary"
@@ -30,6 +30,8 @@ const Service = () => {
               {serviceData.map(({ id, name, img, description }) => {
                 return (
                   <div
+                    data-aos="zoom-in"
+                    data-aos-duration = "300"
                     key={id}
                     className="max-w-[300px] group rounded-2xl bg-white dark:bg-gray-800
                     hover:bg-primary hover:text-white duration-300 p-4 shadow-xl"

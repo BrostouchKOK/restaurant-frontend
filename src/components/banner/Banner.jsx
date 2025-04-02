@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <>
       <div className="min-h-[550px] pb-10">
-        <div className="container">
+        <div data-aos="slide-up" data-aos-duration="300" className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* image section */}
             <div>
